@@ -362,7 +362,7 @@ st.markdown("""
 <div class="exec-header">
 """, unsafe_allow_html=True)
 
-col_title = st.columns([1, 4])
+col_title = st.columns([1, 2, 1])
 
 
 
@@ -1365,6 +1365,7 @@ st.caption(
     "Retention Intelligence · Decision-support analytics. "
     "Predictions are probabilistic and should be combined with HR judgment."
 )
+
 
 
 
