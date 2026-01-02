@@ -1,0 +1,4 @@
+EmployeeID,EmployeeName,Department,Manager,RiskScore,RiskBand,SelectedAction,ActionStatus,ManagerComment,OutcomeStatus,OutcomeDate
+3025,Emp 3025,technical,neha,64.35,Medium,Role Change,Completed,,Left,
+3037,Emp 3037,support,neha,45.63,Medium,Workload Adjustment,Planned,,Stayed,
+3184,Emp 3184,support,neha,53.55,Medium,Workload Adjustment,In Progress,,Pending,
