@@ -355,21 +355,20 @@ if not st.session_state.logged_in:
 
     # ⛔ Stop app until login completes
     st.stop()
-
-# Branding Header
-# -------------------------------------------------
+    
 st.markdown("""
 <div class="exec-header">
 """, unsafe_allow_html=True)
 
-col_title = st.columns([1, 2, 1])
+# FIX: Unpack the columns into 3 variables (c1, c2, c3)
+c1, c2, c3 = st.columns([1, 2, 1]) 
 
-
-
-with col_title:
+# Use the first column (Left) for the Title
+with c1:
     st.title("HR Attrition Intelligence")
 
-with col_title:
+# Use the second column (Middle/Wide) for the HTML Block
+with c2:
     st.markdown("""
     <div class="exec-title">Retention Intelligence</div>
     <div class="exec-subtitle">
@@ -384,8 +383,7 @@ with col_title:
         dept=st.session_state.user_department
     ), unsafe_allow_html=True)
 
-st.markdown("</div>", unsafe_allow_html=True)
-
+# The third column (c3) is left empty for spacing, or you can add a logo here
 st.markdown("---")
 
 # -------------------------------------------------
@@ -1365,6 +1363,7 @@ st.caption(
     "Retention Intelligence · Decision-support analytics. "
     "Predictions are probabilistic and should be combined with HR judgment."
 )
+
 
 
 
