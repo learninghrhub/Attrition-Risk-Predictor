@@ -1,0 +1,4 @@
+EmployeeID,EmployeeName,Department,Manager,RiskScore,RiskBand,SelectedAction,ActionStatus,ManagerComment,OutcomeStatus,OutcomeDate
+E787,Tiwary,Operations,Manager_A,50.0,Medium,Career Path Discussion,Planned,can shift to OPeration to Supplychain,Pending,
+E0001,Vivek Kumar,HR,Manager_A,91.67,High,Career Path Discussion,Completed,,,
+E0014,Employee_14,Operations,Manager_A,55.0,Medium,Workload Rebalancing,Completed,work distributed,,
