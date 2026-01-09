@@ -127,7 +127,7 @@ if "logged_in" not in st.session_state:
 
 # Login Logic
 if not st.session_state.logged_in:
-    st.markdown("<h1 style='text-align: center;'>OrgaKnow Login</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>"Attrition Risk Predictor" Login</h1>", unsafe_allow_html=True)
     c1, c2, c3 = st.columns([1,2,1])
     with c2:
         username = st.text_input("Username")
